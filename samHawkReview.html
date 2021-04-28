@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kratzer Food Reviews</title>
+  <link rel="stylesheet" type="text/css" href="lightMode.css">
+  <script>
+  function toggleTheme() {
+    // Gets the first link of all link elements on the page.
+    // My index is 0 because I only have one link.
+    var theme = document.getElementsByTagName('link')[0];
+
+    // Check which stylesheet is being used and switch to other.
+    if (theme.getAttribute('href') == 'lightMode.css') {
+      theme.setAttribute('href', 'darkMode.css');
+    }
+    else {
+    theme.setAttribute('href', 'lightMode.css');
+    }
+  }
+  </script>
+</head>
+<body>
+  <button onclick="toggleTheme()">Switch Theme</button>
+  <table class="banner" height="300">
+    <tr style="vertical-align: bottom">
+      <td>
+    <a href="index.html">Restaurants Reviews by Kerri</a></div>
+      </td>
+    </tr>
+  </table>
+  <table width="100%">
+    <tr>
+      <th width="60%">Review of Sam Hawk in Provo
+        <a href="samHawkReview.html">
+          <img src="https://img1.wsimg.com/isteam/ip/2209810a-431e-4668-a9cb-7a8c71976d6f/logo/403cabd4-02e0-40e3-8bc0-7d332264e6a6.jpg" width="100%" alt="Sam Hawk Logo">
+        </a>
+      </th>
+      <th width="20%">Teriyaki Boy in Draper
+        <a href="teriyakiBoyReview.html">
+          <img src="https://menufyproduction.imgix.net:443/637225539420967557+178708.png" width="100%" alt="Teriyaki Boy Logo">
+        </a>
+      </th>
+      <th width="20%">Top 10 Restaurants in Utah County by Yelp
+        <a href="https://www.yelp.com/search?cflt=restaurants&find_loc=Utah+County,+UT">
+          <img src="yelp.png"  width="100%" alt="Link to Utah County Yelp Reviews">
+        </a>
+      </th>
+    </tr>
+    <tr>
+      <th width="60%">
+        <p>I am eagerly awaiting the post-COVID-19 re-opening of Sam Hawk, a Korean restaurant in Provo, Utah. While the service from the kitchen can feel a little slow, the food you receive is a testament that quality takes time. Despite the wait after ordering, the front of house staff is quick to seat you and get your order. They are extremely helpful to people who may be unfamiliar with Korean food, offering helpful recommendations.
+        </p>
+        <p>My personal favorite meal for two is an order of the 떡볶이 / Tteokbokki side (Rice cakes and variety of vegetables mixed in spicy red pepper sauce) followed by an entree order of 돌솥 비빔밥 / Stone Bowl Bibimbap (Rice; a choice of beef, pork, or tofu; vegetables; egg; and seaweed served in a sizzling stone bowl). Though the 반찬 / side dishes served with all side dishes includes additional spicy red pepper sauce, I like saving the leftover red pepper sauce from the 떡볶이 / tteokbokki and stiring it into the 비빔밥 / bibimbap for a slightly sweeter heat.
+        </p>
+        <p>You can check out their menu on their site: 
+          <a href="https://samhawkprovo.com">SamHawkProvo.com
+          </a>
+        </p>
+        <p>Give a thumbs up if you found this review helpful!
+        </p>
+      </th>
+      <th width="20%">
+      </th>
+      <th width="20%">
+      </th>
+    </tr>
+  </table>
+</body>
+</html>

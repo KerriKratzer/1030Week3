@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kratzer Food Reviews</title>
+  <link rel="stylesheet" type="text/css" href="lightMode.css">
+  <script>
+  function toggleTheme() {
+    // Gets the first link of all link elements on the page.
+    // My index is 0 because I only have one link.
+    var theme = document.getElementsByTagName('link')[0];
+
+    // Check which stylesheet is being used and switch to other.
+    if (theme.getAttribute('href') == 'lightMode.css') {
+      theme.setAttribute('href', 'darkMode.css');
+    }
+    else {
+    theme.setAttribute('href', 'lightMode.css');
+    }
+  }
+  </script>
+</head>
+<body>
+  <button onclick="toggleTheme()">Switch Theme</button>
+  <table class="banner" height="300">
+    <tr style="vertical-align: bottom">
+      <td>
+    <a href="index.html">Restaurants Reviews by Kerri</a></div>
+      </td>
+    </tr>
+  </table>
+  <table width="100%">
+    <tr>
+      <th width="20%">Review of Sam Hawk in Provo
+        <a href="samHawkReview.html">
+          <img src="https://img1.wsimg.com/isteam/ip/2209810a-431e-4668-a9cb-7a8c71976d6f/logo/403cabd4-02e0-40e3-8bc0-7d332264e6a6.jpg" width="100%" alt="Sam Hawk Logo">
+        </a>
+      </th>
+      <th width="60%">Teriyaki Boy in Draper
+        <a href="teriyakiBoyReview.html">
+          <img src="https://menufyproduction.imgix.net:443/637225539420967557+178708.png" width="100%" alt="Teriyaki Boy Logo">
+        </a>
+      </th>
+      <th width="20%">Top 10 Restaurants in Utah County by Yelp
+        <a href="https://www.yelp.com/search?cflt=restaurants&find_loc=Utah+County,+UT">
+          <img src="yelp.png"  width="100%" alt="Link to Utah County Yelp Reviews">
+        </a>
+      </th>
+    </tr>
+    <tr>
+      <th width="20%">
+      </th>
+      <th width="60%">
+        <p>I happened upon Teriyaki Boy Grill Express when I was departing for a road trip. Because of the events of the day, I was leaving significantly later than I intended and I was exhausted as I anticipated the drive. Feeling cold and grumpy, I just wanted warm comforting food without delaying my departure longer.
+        </p>
+        <p>As it was a pretty busy evening for them, I got my Miso Soup immediately while I waited on my order of their Chicken Teriyaki with white rice & vegetables (options for fried rice, noodles, brown rice, or mushrooms). To say that the miso soup hit the spot is an understatement. It was calming and revitalizing. After a wait of five to ten minutes, I got the Chicken Teriyaki order. For the fast food vibe of the restaurant, I was half expecting the pre-cooked and thoroughly dried out offerings that you find at many chains. However, the chicken was remarkably	fresh and juicy. I'm grateful that I found them locally before my departure because I find myself craving that miso soup and chicken teriyaki frequently now.
+        </p>
+        <p>You can check out their menu on their site: 
+          <a href="https://www.teriyakiboygrillexpress.com">TeriyakiBoyGrillExpress.com
+          </a>
+        </p>
+        <p>Give a thumbs up if you found this review helpful!
+        </p>
+      </th>
+      <th width="20%">
+      </th>
+    </tr>
+  </table>
+</body>
+</html>

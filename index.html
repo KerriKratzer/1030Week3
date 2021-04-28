@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kratzer Food Reviews</title>
+  <link rel="stylesheet" type="text/css" href="lightMode.css">
+  <script>
+  function toggleTheme() {
+    // Gets the first link of all link elements on the page.
+    // My index is 0 because I only have one link.
+    var theme = document.getElementsByTagName('link')[0];
+
+    // Check which stylesheet is being used and switch to other.
+    if (theme.getAttribute('href') == 'lightMode.css') {
+      theme.setAttribute('href', 'darkMode.css');
+    }
+    else {
+    theme.setAttribute('href', 'lightMode.css');
+    }
+  }
+  </script>
+</head>
+<body>
+  <button onclick="toggleTheme()">Switch Theme</button>
+  <table class="banner" height="300">
+    <tr style="vertical-align: bottom">
+      <td>
+    <a href="index.html">Restaurants Reviews by Kerri</a></div>
+      </td>
+    </tr>
+  </table>
+  <table width="100%">
+    <tr>
+      <th width="33%">Review of Sam Hawk in Provo
+        <a href="samHawkReview.html">
+          <img src="https://img1.wsimg.com/isteam/ip/2209810a-431e-4668-a9cb-7a8c71976d6f/logo/403cabd4-02e0-40e3-8bc0-7d332264e6a6.jpg" width="100%" alt="Sam Hawk Logo">
+        </a>
+      </th>
+      <th width="33%">Review of Teriyaki Boy in Draper
+        <a href="teriyakiBoyReview.html">
+          <img src="https://menufyproduction.imgix.net:443/637225539420967557+178708.png" width="100%" alt="Teriyaki Boy Logo">
+        </a>
+      </th>
+      <th width="33%">Top 10 Restaurants in Utah County by Yelp
+        <a href="https://www.yelp.com/search?cflt=restaurants&find_loc=Utah+County,+UT">
+          <img src="yelp.png"  width="100%" alt="Link to Utah County Yelp Reviews">
+        </a>
+      </th>
+    </tr>
+  </table>
+
+
+     
+</body>
+</html>
